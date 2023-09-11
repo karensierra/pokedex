@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:  #3091e6;
+    text-align: center;
+}
+header {
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 40px;
+}
+#search-input{
+    width: 60%;
+    height: 30px;
+    border: 1px solid  #888e93;
+    margin-bottom: 20px;
+}
+
+#characters {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 1200px;
+}
+
+.pokemon {
+    padding: 20px;
+    border: 1px solid #3091e6;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #DBDBDB;
+    width: 25%;
+    margin: 20px;
+    display: grid;
+    justify-content: center;
+}
